@@ -1,6 +1,6 @@
 ﻿/** Adds two numbers. */
 export function add(a, b) {
-  return a - b
+  return a + b
 }
 
 /** Formats a duration in seconds as m:ss. */
