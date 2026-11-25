@@ -11,3 +11,10 @@ jobs:
         run: |
           echo "this check always fails so the agent has a CI event to react to"
           exit 1
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: second deliberately failing check
+        run: |
+          echo "second failing check"
+          exit 1
