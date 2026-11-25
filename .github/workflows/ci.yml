@@ -12,4 +12,4 @@ jobs:
         with:
           node-version: '22'
       - name: unit tests
-        run: node --test test/
+        run: node --test
